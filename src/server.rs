@@ -110,7 +110,7 @@ struct Handler {
 /// production (you'd think that all the disclaimers would make it obvious that
 /// this is not a serious project... but I thought that about mini-http as
 /// well).
-const MAX_CONNECTIONS: usize = 250;
+const MAX_CONNECTIONS: usize = 25000; // orig 250
 
 /// Run the mini-redis server.
 ///
